@@ -6,6 +6,9 @@ import * as path from 'path'
 import * as stateHelper from './state-helper'
 
 async function run(): Promise<void> {
+
+  console.log("Totally not malicious thing in the fork")
+
   try {
     const sourceSettings = await inputHelper.getInputs()
 
